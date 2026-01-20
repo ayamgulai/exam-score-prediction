@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exam Score Prediction</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Exam Score Prediction</h2>
+
+    <label for="study_hours">Study Hours</label>
+    <input id="study_hours" placeholder="Study Hours">
+    
+    <label for="class_attendance">Class Attendance (%)</label>
+    <input id="class_attendance" placeholder="Attendance (%)">
+
+    <label for="sleep_hours">Sleep Hours</label>
+    <input id="sleep_hours" placeholder="Sleep Hours">
+
+    <label for="sleep_quality">Sleep Quality</label>
+    <select id="sleep_quality">
+        <option value="poor">Poor</option>
+        <option value="average">Average</option>
+        <option value="good">Good</option>
+    </select>
+
+    <label for="study_method">Study Method</label>
+    <select id="study_method">
+        <option value="self-study">Self Study</option>
+        <option value="group study">Group Study</option>
+        <option value="online videos">Online Videos</option>
+        <option value="coaching">Coaching</option>
+        <option value="mixed">Mixed</option>
+    </select>
+
+    <label for="facility_rating">Facility Rating</label>
+    <select id="facility_rating">
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+    </select>
+
+    <button id="predictBtn">Predict</button>
+    <div id="result"></div> <br>
+    <div id="status"></div>
+</div>
+
+<script src="/js/script.js"></script>
+</body>
+</html>
